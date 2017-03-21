@@ -1,0 +1,76 @@
+body {
+    padding-bottom: 80px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 15.5px;
+}
+
+.navbar{
+    background-color:black;
+}
+
+.navbar-primary a{
+  color: white;
+}
+
+.btn.btn-primary {
+    background: #0c8341;
+    border-color: #0c8341;
+    color: #fcfcfc;
+}
+
+.form-input-hint {
+    color: #ee0909;
+   
+}
+
+h5{
+    text-align-last: center;
+  
+}
+h3{
+  color: #EDC844;
+}
+
+.columns{
+    background-image: url("sc1.jpg");
+}
+
+form {
+    border: 3px solid #ccc;
+    padding: 0 20px 25px 20px;
+    border-radius: 10px;
+    background-color: #EDC844;
+    color: black;
+}
+
+.form-input{
+    background: #eed;
+}
+
+.form-select:not([multiple]) {
+    background-color:#eed;
+    color:#796262;
+}
+
+input[type=checkbox],
+input[type=radio] {
+    margin-right: 8px;
+    color:blue;
+}
+.form-label.capitalize {
+    text-transform: capitalize;
+}
+.checkbox-group {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.checkbox-group .form-label {
+    width: 50%;
+}
+input[type=submit],
+.btn-link {
+    margin-top: 20px;
+}
